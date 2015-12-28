@@ -1,0 +1,453 @@
+2015-11-03 16:56:12,584 INFO  mytest.mina.MyIoHandler:44  -> 创建一个session
+2015-11-03 16:56:12,594 INFO  mytest.mina.MyIoHandler:54  -> 打开一个session
+2015-11-03 16:56:14,404 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:14,765 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:14,790 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:14,814 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:14,839 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:14,864 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:14,888 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:14,912 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:15,912 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:15,914 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 16:56:15,914 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：aaaaaaaa
+2015-11-03 16:56:25,916 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:56:29,009 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:29,259 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:30,075 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:30,311 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:30,646 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 16:56:30,647 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 16:56:30,648 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：quit
+2015-11-03 16:56:40,650 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:56:50,650 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:57:00,651 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:57:10,652 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:57:20,653 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:57:30,656 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:57:40,664 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:57:50,664 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:58:00,664 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:58:10,665 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:58:20,666 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:58:30,667 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:58:40,669 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:58:50,670 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:59:00,671 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:59:10,673 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:59:20,673 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:59:30,673 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:59:40,673 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 16:59:50,674 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:00:00,675 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:00:10,675 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:00:20,675 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:00:30,675 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:00:40,675 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:00:50,675 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:00:51,877 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 17:00:52,193 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 17:00:52,844 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 17:00:53,729 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 17:00:53,729 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:00:53,729 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：esc
+2015-11-03 17:00:53,732 INFO  mytest.mina.MyIoHandler:39  -> session--关闭了
+2015-11-03 17:01:58,190 INFO  mytest.mina.MyIoHandler:44  -> 创建一个session
+2015-11-03 17:01:58,196 INFO  mytest.mina.MyIoHandler:54  -> 打开一个session
+2015-11-03 17:02:08,196 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:16,299 INFO  mytest.mina.MyIoHandler:44  -> 创建一个session
+2015-11-03 17:02:16,299 INFO  mytest.mina.MyIoHandler:54  -> 打开一个session
+2015-11-03 17:02:18,196 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:24,225 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:02:24,422 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:02:24,423 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:02:24,423 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：1
+2015-11-03 17:02:28,197 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:34,424 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:38,197 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:44,424 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:48,197 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:51,240 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:02:52,571 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:02:52,572 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:02:52,572 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：2
+2015-11-03 17:02:54,424 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:02:59,536 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:03:02,527 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:03:02,527 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:03:02,527 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：1
+2015-11-03 17:03:02,572 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:03:06,065 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:03:07,004 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:03:07,005 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:03:07,005 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：2
+2015-11-03 17:03:08,666 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:03:08,932 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:03:09,144 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:03:09,774 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 2
+2015-11-03 17:03:09,775 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:03:09,775 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：esc
+2015-11-03 17:03:09,776 INFO  mytest.mina.MyIoHandler:39  -> session--关闭了
+2015-11-03 17:03:12,528 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:03:13,126 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:03:13,365 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:03:13,554 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:03:15,313 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 3
+2015-11-03 17:03:15,314 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:03:15,314 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：esc
+2015-11-03 17:03:15,315 INFO  mytest.mina.MyIoHandler:39  -> session--关闭了
+2015-11-03 17:03:55,785 INFO  mytest.mina.MyIoHandler:44  -> 创建一个session
+2015-11-03 17:03:55,785 INFO  mytest.mina.MyIoHandler:54  -> 打开一个session
+2015-11-03 17:04:02,777 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:02,970 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:12,970 INFO  mytest.mina.MyIoHandler:49  -> 无数据传输session处于空闲状态
+2015-11-03 17:04:15,814 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:17,015 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:20,979 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:22,782 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:22,782 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:04:22,782 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：11fff
+2015-11-03 17:04:30,984 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:31,234 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:31,433 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:32,552 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 4
+2015-11-03 17:04:32,552 INFO  mytest.mina.MyIoHandler:23  -> 开始接受数据
+2015-11-03 17:04:32,552 INFO  mytest.mina.MyIoHandler:25  -> 收到的消息：esc
+2015-11-03 17:04:32,553 INFO  mytest.mina.MyIoHandler:39  -> session--关闭了
+2015-11-03 17:34:03,773 INFO  mytest.mina.ClinetHandler:44  -> client创建一个session
+2015-11-03 17:34:03,778 INFO  mytest.mina.ClinetHandler:54  -> client打开一个session
+2015-11-03 17:34:03,785 INFO  mytest.mina.ClinetHandler:34  -> client开始发送数据
+2015-11-03 17:34:03,790 INFO  mytest.mina.ServerHandler:44  -> server创建一个session
+2015-11-03 17:34:03,797 INFO  mytest.mina.ServerHandler:54  -> server打开一个session
+2015-11-03 17:34:03,802 DEBUG filter.codec.ProtocolCodecFilter:211  -> Processing a MESSAGE_RECEIVED for session 1
+2015-11-03 17:34:03,804 INFO  mytest.mina.ServerHandler:23  -> server开始接受数据
+2015-11-03 17:34:03,805 INFO  mytest.mina.ServerHandler:25  -> 收到的消息：hellow 服务端
+2015-11-03 17:34:13,805 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:34:23,805 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:34:33,805 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:34:43,805 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:34:53,818 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:35:03,818 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:35:13,818 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:35:23,821 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:35:33,821 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:35:43,822 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:35:53,823 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:36:03,827 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:36:13,830 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:36:23,830 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:36:33,830 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:36:43,835 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:36:53,835 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:37:03,843 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:37:13,846 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:37:23,847 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:37:33,847 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:37:43,847 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:37:53,847 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:38:03,848 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:38:13,849 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:38:23,852 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:38:33,852 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:38:43,853 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:38:53,853 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:39:03,853 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:39:13,853 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:39:23,853 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:39:33,853 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:39:43,855 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:39:53,858 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:40:03,858 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:40:13,865 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:40:23,865 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:40:33,868 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:40:43,869 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:40:53,870 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:41:03,871 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:41:13,872 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:41:23,873 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:41:33,875 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:41:43,875 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:41:53,889 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:42:03,889 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:42:13,889 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:42:23,889 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:42:33,889 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:42:43,891 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:42:53,895 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:43:03,897 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:43:13,898 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:43:23,899 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:43:33,901 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:43:43,901 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:43:53,901 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:44:03,901 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:44:13,902 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:44:23,903 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:44:33,903 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:44:43,903 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:44:53,903 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:45:03,903 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:45:13,903 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:45:23,904 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:45:33,904 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:45:43,904 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:45:53,905 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:46:03,905 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:46:13,906 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:46:23,907 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:46:33,907 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:46:43,908 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:46:53,908 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:47:03,908 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:47:13,909 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:47:23,909 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:47:33,909 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:47:43,910 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:47:53,910 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:48:03,911 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:48:13,912 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:48:23,913 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:48:33,917 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:48:43,922 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:48:53,923 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:49:03,923 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:49:13,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:49:23,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:49:33,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:49:43,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:49:53,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:50:03,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:50:13,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:50:23,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:50:33,924 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:50:43,925 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:50:53,929 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:51:03,929 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:51:13,930 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:51:23,945 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:51:33,945 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:51:43,945 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:51:53,945 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:52:03,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:52:13,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:52:23,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:52:33,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:52:43,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:52:53,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:53:03,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:53:13,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:53:23,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:53:33,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:53:43,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:53:53,946 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:54:03,947 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:54:13,948 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:54:23,949 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:54:33,950 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:54:43,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:54:53,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:55:03,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:55:13,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:55:23,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:55:33,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:55:43,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:55:53,953 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:56:03,954 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:56:13,955 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:56:23,955 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:56:33,956 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:56:43,957 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:56:53,958 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:57:03,959 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:57:13,959 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:57:23,959 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:57:33,960 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:57:43,960 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:57:53,963 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:58:03,964 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:58:13,965 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:58:23,966 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:58:33,966 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:58:43,966 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:58:53,966 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:59:03,966 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:59:13,967 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:59:23,967 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:59:33,967 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:59:43,967 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 17:59:53,968 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:00:03,969 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:00:13,969 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:00:23,969 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:00:33,969 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:00:43,969 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:00:53,974 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:01:03,975 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:01:13,978 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:01:23,978 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:01:33,978 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:01:43,978 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:01:53,979 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:02:03,979 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:02:13,980 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:02:23,980 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:02:33,981 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:02:43,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:02:53,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:03:03,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:03:13,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:03:23,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:03:33,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:03:43,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:03:53,982 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:04:03,983 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:04:13,984 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:04:23,984 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:04:33,984 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:04:43,989 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:04:53,990 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:05:03,997 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:05:13,997 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:05:23,999 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:05:34,008 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:05:44,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:05:54,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:06:04,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:06:14,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:06:24,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:06:34,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:06:44,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:06:54,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:07:04,011 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:07:14,013 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:07:24,013 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:07:34,017 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:07:44,018 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:07:54,018 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:08:04,019 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:08:14,019 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:08:24,019 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:08:34,019 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:08:44,020 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:08:54,021 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:09:04,022 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:09:14,022 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:09:24,022 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:09:34,022 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:09:44,022 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:09:54,022 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:10:04,023 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:10:14,023 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:10:24,043 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:10:34,044 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:10:44,045 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:10:54,045 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:11:04,048 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:11:14,049 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:11:24,049 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:11:34,056 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:11:44,057 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:11:54,057 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:12:04,058 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:12:14,059 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:12:24,059 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:12:34,059 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:12:44,059 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:12:54,059 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:13:04,060 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:13:14,060 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:13:24,060 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:13:34,061 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:13:44,062 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:13:54,063 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:14:04,063 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:14:14,063 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:14:24,064 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:14:34,064 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:14:44,067 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:14:54,068 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:15:04,069 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:15:14,070 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:15:24,070 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:15:34,073 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:15:44,073 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:15:54,077 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:16:04,078 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:16:14,079 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:16:24,079 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:16:34,079 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:16:44,079 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:16:54,079 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:17:04,079 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:17:14,080 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:17:24,081 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:17:34,081 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:17:44,081 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:17:54,081 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:18:04,081 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:18:14,081 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:18:24,084 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:18:34,085 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:18:44,085 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:18:54,085 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:19:04,086 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:19:14,087 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:19:24,088 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:19:34,092 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:19:44,093 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:19:54,103 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:20:04,103 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:20:14,103 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:20:24,105 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:20:34,109 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:20:44,110 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:20:54,110 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:21:04,110 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:21:14,110 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:21:24,111 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:21:34,112 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:21:44,112 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:21:54,112 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:22:04,113 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:22:14,113 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:22:24,114 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:22:34,115 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:22:44,116 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:22:54,116 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:23:04,117 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:23:14,118 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:23:24,118 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:23:34,118 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:23:44,118 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:23:54,118 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:24:04,120 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:24:14,120 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:24:24,120 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:24:34,120 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:24:44,122 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:24:54,122 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:25:04,122 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:25:14,122 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:25:24,123 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:25:34,123 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:25:44,123 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:25:54,124 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:26:04,124 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:26:14,125 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:26:24,126 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:26:34,126 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:26:44,131 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:26:54,131 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:27:04,131 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:27:14,131 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:27:24,134 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:27:34,134 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:27:44,134 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:27:54,135 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:28:04,136 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:28:14,136 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:28:24,136 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:28:34,136 INFO  mytest.mina.ServerHandler:49  -> server无数据传输session处于空闲状态
+2015-11-03 18:28:36,201 INFO  mytest.mina.ClinetHandler:18  -> 出现了异常java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2015-11-03 18:28:36,203 INFO  mytest.mina.ClinetHandler:39  -> client--session--关闭了
