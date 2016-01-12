@@ -31,13 +31,16 @@ public class ActiveRespMessage extends AbstractMessage {
 
     @Override
     protected int retCommand() {
-        // TODO Auto-generated method stub
         return 0;
     }
 
     @Override
     protected byte[] retBody() {
-        // TODO Auto-generated method stub
         return null;
+    }
+
+    @Override
+    protected void decodeBody(byte[] bodyBytes) {
+
     }
 }

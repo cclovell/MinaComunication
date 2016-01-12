@@ -10,7 +10,7 @@ import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IdleStatus;
 import org.apache.mina.core.session.IoSession;
 
-import com.mytest.message.ActiveMessage;
+import com.mytest.message.Item;
 import com.mytest.session.ServerSessionManager;
 import com.mytest.util.UUIDUtils;
 
@@ -31,16 +31,20 @@ public class ServerHandler extends IoHandlerAdapter {
     @Override
     public void messageReceived(IoSession session, Object message) throws Exception {
         log.info("server开始接受数据");
-        if (message instanceof ActiveMessage) {
-            ActiveMessage am = (ActiveMessage) message;
-            log.info("收到的ActiveMessage消息：" + am);
+        if (message instanceof Item) {
+            Item am = (Item) message;
+            log.info("收到的ActiveMessage消息的name：" + am.getName());
+            log.info("收到的ActiveMessage消息的id：" + am.getId());
         }
-        String msg = message.toString();
-        log.info("收到的消息：" + msg);
-        if (msg.equals("esc")) {
-            session.close(true);
-            return;
+        else {
+            String msg = message.toString();
+            log.info("收到的消息：" + msg);
+            if (msg.equals("esc")) {
+                session.close(true);
+                return;
+            }
         }
+
         // Collection<IoSession> ioSessions = session.getService().getManagedSessions().values();
 
         // for (IoSession is : ioSessions) {

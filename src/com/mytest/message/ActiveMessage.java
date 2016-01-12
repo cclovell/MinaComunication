@@ -39,4 +39,10 @@ public class ActiveMessage extends AbstractMessage {
         // TODO Auto-generated method stub
         return null;
     }
+
+    @Override
+    protected void decodeBody(byte[] bodyBytes) {
+        // TODO Auto-generated method stub
+
+    }
 }

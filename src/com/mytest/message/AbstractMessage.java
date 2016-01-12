@@ -7,6 +7,9 @@ package com.mytest.message;
 
 import java.io.Serializable;
 import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.nio.charset.CharsetDecoder;
+import java.nio.charset.CharsetEncoder;
 
 /**
  * 消息的顶级抽象父类（length、version、command、sequence合起来应该叫报头）
@@ -43,25 +46,6 @@ public abstract class AbstractMessage implements Serializable {
         this.appVersion = appVersion;
     }
 
-    /**
-     * 获取完整版本，即两个字节组合起来的，一般不对外使用，如0x0114
-     * 
-     * @return
-     */
-    public short getFullVersion() {
-        return (short) (((this.appVersion << 8) | this.wpcfVersion & 0xff));
-    }
-
-    /**
-     * 设置完整版本，即两个字节一起设置，一般不对外使用，如0x0114
-     * 
-     * @param version
-     */
-    public void setFullVersion(short version) {
-        this.appVersion = (byte) (version >> 8);
-        this.wpcfVersion = (byte) (version & 0xff);
-    }
-
     public void setWpcfVersion(int version) {
         this.wpcfVersion = version;
     }
@@ -95,17 +79,17 @@ public abstract class AbstractMessage implements Serializable {
         }
     }
 
-    public int getCommand() {
-        return command;
+    public CharsetDecoder getCharSetDecode() {
+        return Charset.forName("GBK").newDecoder();
     }
 
-    public void setCommand(int command) {
-        this.command = command;
+    public CharsetEncoder getCharSetEncoder() {
+        return Charset.forName("GBK").newEncoder();
     }
 
     @Override
     public String toString() {
-        return getClass().getName() + "\t" + "123456";
+        return getClass().getName() + "\t";
     }
 
     /**
@@ -117,7 +101,7 @@ public abstract class AbstractMessage implements Serializable {
     public byte[] encode() {
         try {
             byte[] body = retBody();
-            length = 8 + (body == null ? 0 : body.length);
+            length = MessageConstants.PK_HEAD_LENGTH + (body == null ? 0 : body.length);
             ByteBuffer bb = ByteBuffer.allocate(length);
             bb.position(4);
 
@@ -191,7 +175,7 @@ public abstract class AbstractMessage implements Serializable {
             bb.get(bodyBytes);
             bb.clear();
 
-            // decodeBody(bodyBytes);
+            decodeBody(bodyBytes);
         }
         catch (Exception e) {
             // if (e instanceof DecoderException) {
@@ -222,6 +206,6 @@ public abstract class AbstractMessage implements Serializable {
      * 
      * @param bodyBytes
      */
-    // protected abstract void decodeBody(byte[] bodyBytes) throws DecoderException;
+    protected abstract void decodeBody(byte[] bodyBytes);
 
 }

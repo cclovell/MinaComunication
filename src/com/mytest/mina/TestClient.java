@@ -5,7 +5,7 @@
  */
 package com.mytest.mina;
 
-import com.mytest.message.ActiveMessage;
+import com.mytest.message.Item;
 
 public class TestClient {
 
@@ -15,9 +15,10 @@ public class TestClient {
     public static void main(String[] args) {
         TCPClient tcpClient = new TCPClient("testClient", "123456", "192.168.0.79", 9123);
         tcpClient.connet();
-        ActiveMessage am = new ActiveMessage();
-        am.setMessageId("123456789");
-        tcpClient.sendMessage(am);
+        Item item = new Item();
+        item.setName("张三");
+        item.setId("5554646464");
+        tcpClient.sendMessage(item);
     }
 
 }

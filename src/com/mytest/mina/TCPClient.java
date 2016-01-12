@@ -1,6 +1,7 @@
 package com.mytest.mina;
 
 import java.net.InetSocketAddress;
+import java.nio.charset.Charset;
 
 import org.apache.mina.core.future.ConnectFuture;
 import org.apache.mina.core.future.DefaultWriteFuture;
@@ -8,6 +9,9 @@ import org.apache.mina.core.future.WriteFuture;
 import org.apache.mina.core.service.IoConnector;
 import org.apache.mina.core.session.IdleStatus;
 import org.apache.mina.core.session.IoSession;
+import org.apache.mina.filter.codec.ProtocolCodecFilter;
+import org.apache.mina.filter.codec.textline.LineDelimiter;
+import org.apache.mina.filter.codec.textline.TextLineCodecFactory;
 import org.apache.mina.filter.keepalive.KeepAliveFilter;
 import org.apache.mina.filter.keepalive.KeepAliveMessageFactory;
 import org.apache.mina.filter.keepalive.KeepAliveRequestTimeoutHandler;
@@ -16,6 +20,7 @@ import org.apache.mina.transport.socket.nio.NioSocketConnector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.mytest.filter.MyProtocalFactory;
 import com.mytest.message.ActiveMessage;
 import com.mytest.message.ActiveRespMessage;
 
@@ -48,11 +53,14 @@ public class TCPClient {
 
         connector.setConnectTimeoutMillis(30000);
 
-        // connector.getFilterChain().addLast(
-        // "codec",
-        // new ProtocolCodecFilter(new TextLineCodecFactory(Charset.forName("UTF-8"), LineDelimiter.WINDOWS
-        // .getValue(), LineDelimiter.WINDOWS.getValue())));
+        // DemuxingProtocolCodecFactory
+
+        connector.getFilterChain().addLast(
+                "codec",
+                new ProtocolCodecFilter(new TextLineCodecFactory(Charset.forName("UTF-8"), LineDelimiter.WINDOWS
+                        .getValue(), LineDelimiter.WINDOWS.getValue())));
         connector.getFilterChain().addLast("logger", new LoggingFilter());
+        connector.getFilterChain().addLast("codec", new ProtocolCodecFilter(new MyProtocalFactory()));
 
         connector.setHandler(new ClinetHandler());
         // 心跳配置
