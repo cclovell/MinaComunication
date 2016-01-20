@@ -33,8 +33,8 @@ public class ServerHandler extends IoHandlerAdapter {
         log.info("server开始接受数据");
         if (message instanceof Item) {
             Item am = (Item) message;
-            log.info("收到的ActiveMessage消息的name：" + am.getName());
-            log.info("收到的ActiveMessage消息的id：" + am.getId());
+            log.info("收到的Item消息的name：" + am.getName());
+            log.info("收到的Item消息的id：" + am.getId());
         }
         else {
             String msg = message.toString();

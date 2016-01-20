@@ -3,10 +3,8 @@ package com.mytest.mina;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
-import org.apache.mina.core.service.IoAcceptor;
 import org.apache.mina.core.session.IdleStatus;
 import org.apache.mina.core.session.IoSession;
-import org.apache.mina.filter.codec.ProtocolCodecFilter;
 import org.apache.mina.filter.keepalive.KeepAliveFilter;
 import org.apache.mina.filter.keepalive.KeepAliveMessageFactory;
 import org.apache.mina.filter.keepalive.KeepAliveRequestTimeoutHandler;
@@ -15,7 +13,7 @@ import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mytest.filter.MyProtocalFactory;
+import com.mytest.filter.MyProtocalFilter;
 import com.mytest.message.ActiveMessage;
 import com.mytest.message.ActiveRespMessage;
 import com.mytest.session.ServerSessionManager;
@@ -42,16 +40,18 @@ public class TCPServer extends Thread {
     public void run() {
 
         try {
-            IoAcceptor acceptor = new NioSocketAcceptor();
+            NioSocketAcceptor acceptor = new NioSocketAcceptor(Runtime.getRuntime().availableProcessors() + 1);
 
             // acceptor.getSessionConfig().setIdleTime(IdleStatus.BOTH_IDLE, 10);
             acceptor.getSessionConfig().setReadBufferSize(2048);
+            acceptor.getSessionConfig().setReceiveBufferSize(2048);
+            acceptor.getSessionConfig().setTcpNoDelay(true);
 
             // ProtocolEncoderAdapter 编码器实现接口
             // ProtocolDecoderAdapter 解码器实现接口
             // CumulativeProtocolDecoder 累积性的协议解码器（为了防止频繁调用解码器中的decode()方法），所有解码由这个类同意管理
 
-            acceptor.getFilterChain().addLast("codec", new ProtocolCodecFilter(new MyProtocalFactory()));
+            acceptor.getFilterChain().addLast("codec", new MyProtocalFilter());
 
             acceptor.getFilterChain().addLast("logger", new LoggingFilter());
 

@@ -15,10 +15,13 @@ public class TestClient {
     public static void main(String[] args) {
         TCPClient tcpClient = new TCPClient("testClient", "123456", "192.168.0.79", 9123);
         tcpClient.connet();
-        Item item = new Item();
-        item.setName("张三");
-        item.setId("5554646464");
-        tcpClient.sendMessage(item);
+        for (int i = 0; i < 10; i++) {
+            Item item = new Item();
+            item.setName("张三" + i);
+            item.setId("123456789");
+            tcpClient.sendMessage(item);
+        }
+
     }
 
 }

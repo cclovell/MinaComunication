@@ -37,15 +37,25 @@ public class Item extends AbstractMessage {
         return MessageConstants.TOK_LOGIN;
     }
 
+    public static void main(String args[]) {
+        IoBuffer buf = IoBuffer.allocate(18);
+        buf.putInt(10000);
+    }
+
     @Override
     protected byte[] retBody() {
         try {
+            System.out.println("retBody////////////");
             CharsetEncoder ce = getCharSetEncoder();
             int totalLength = id.getBytes("GBK").length + name.getBytes("GBK").length;
-            IoBuffer buf = IoBuffer.allocate(totalLength);
+            IoBuffer buf = IoBuffer.allocate(totalLength + 8);
+            int idLength = id.getBytes("GBK").length;
+            buf.putInt(idLength);
             buf.putString(id, ce);
+            int nameLength = name.getBytes("GBK").length;
+            buf.putInt(nameLength);
             buf.putString(name, ce);
-            byte[] msg = new byte[totalLength];
+            byte[] msg = new byte[totalLength + 8];
             buf.flip();
             buf.get(msg);
             buf.clear();
@@ -59,11 +69,14 @@ public class Item extends AbstractMessage {
 
     @Override
     protected void decodeBody(byte[] bodyBytes) {
+        System.out.println("decodeBody////////////");
         IoBuffer in = IoBuffer.wrap(bodyBytes);
         CharsetDecoder cd = getCharSetDecode();
         try {
-            id = in.getString(10, cd);
-            name = in.getString(cd);
+            int idLength = in.getInt();
+            id = in.getString(idLength, cd);
+            int nameLength = in.getInt();
+            name = in.getString(nameLength, cd);
         }
         catch (CharacterCodingException e) {
             e.printStackTrace();
