@@ -60,7 +60,4 @@ public class ServerThread implements Runnable {
         }
     }
 
-    public synchronized void sendMsg(String msg) {
-
-    }
 }
