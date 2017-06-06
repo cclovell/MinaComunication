@@ -21,7 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/cfg" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="module-library">
       <library name="log4j-1.2.16.jar">
         <CLASSES>
